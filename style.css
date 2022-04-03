@@ -1,58 +1,57 @@
-body{
-    margin:0;
-    padding:0;
-    font-family: cursive;
-    height: 100vh;
-    border:2px solid red;
+p{
+    font-size:20px;
+    font-weight: bold;
 }
 
-.layout-container{
-    display:flex;
-    flex-direction:column;
-    height: 100vh;
-    font-size: 20px;
+div{
+    font-family: "Helvitica", sans-serif;
+    background:rgb(0, 255, 132);
+    border:3px solid red;
+    /* width:350px; */
     text-align: center;
-}
-
-.flx-header{
+    box-shadow: 5px 5px 20px rgb(74, 35, 165);
+    border-radius: 20px;
     padding:20px;
-    background-color: #143ec7;
+    margin:20px;
+
 }
 
-
-.flx-main-container{
-    display:flex;
-    flex:1;
+/* .static{
+    position: static;
+    left:400px;
 }
 
-.flx-nav,.flx-aside{
-    background-color: #ffe96e;
-    padding:10px;
-    flex:1/2;
+.relative{
+    position: relative;
+    left:400px;
+    top:200px;
+    right:200px
 }
 
-.flx-article-section{
-    background-color: #0fff37;
-    padding:10px;
-    flex:1
+.fixed{
+    position:fixed;
+    top:0px;
+    right:0px;
 }
 
+.ancestor{
+    width:500px;
+    height:400px;
+    position: relative;
+    left:400px;
+    top:200px;
 
-.flx-footer{
-    background-color: #ff0000;
-    padding:10px;
-    flex:1/2;
 }
 
-@media all and (max-width:500px){
-    .flx-main-container{
-        flex-direction:column;
-    }
-    .flx-nav,.flx-aside{
-        flex:1;
-    }
-    .flx-article-section{
-        flex:1;
-    }
-    
+.absolute{
+    position: absolute;
+   left:530px;
+    top:200px;
+} */
+
+
+.sticky{
+    position: sticky;
+    top:0px;
+    left:0px;
 }
